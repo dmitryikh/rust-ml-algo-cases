@@ -1,0 +1,8 @@
+[package]
+name = "rust-ml-algo-cases"
+version = "0.1.0"
+authors = ["dmitry.khominich <khdmitryi@gmail.com>"]
+
+[dependencies]
+kdtree = "*"
+ml-algo = { git = "https://github.com/dmitryikh/rust-ml-algo" }
