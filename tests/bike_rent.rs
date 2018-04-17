@@ -2,7 +2,7 @@ extern crate ml_algo;
 
 use ml_algo::matrix::DMatrix;
 use ml_algo::rforest::{RegRandomForest, RandomForestOptions};
-use ml_algo::cart::{CartOptions, SplitCriteria};
+use ml_algo::tree::{CartOptions, SplitCriteria};
 use ml_algo::utils::{rmse_error, mae_error};
 
 #[test]
